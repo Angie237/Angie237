@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>PEDIDOS</title>
+	<link rel="stylesheet" type="text/css" href="/Tarea/css/estilo.css">
+	<link rel="icon" type="image/png" href="/Tarea/img/LOGO.png">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+		  integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+	<h1 align="center">PEDIDOS</h1>
+<br><br>
+<br><br>
+<nav class="menu">
+
+		<ul id="button">
+			<li><a href="p_p.html">Inicio</a></li>
+			<li><a href="P_F.html">Pedido</a></li>
+			<li><a href="p_r.html">Rutas</a></li>
+			<li><a href="p_g.html">Redes Sociales</a></li>
+		</ul>
+
+	</nav>	
+	<br><br><br><br>
+	<form>
+		<h3>Datos a completar.</h3>
+		<br><br>
+	<fieldset>
+	<legend> Datos Personales</legend>
+	<br><br>
+	<label>
+		Nombre :
+		<input type="text" name="Nombre" required="true" maxlength="25">
+	</label>
+	<br><br>
+	<label>
+		Apellido :
+		<input type="text" name="Apellido" required="true" maxlength="25">
+	</label>	
+	<br><br>
+
+	<label>
+		Horario de Entrega:
+			<br><br>
+		<input type="radio" name="Tiempo" value="dia" required="true" maxlength="10">Mañana
+			<br><br>
+		<input type="radio" name="Tiempo" value="tarde" required="true" maxlength="10">Tarde
+	</label>	
+	<br><br>
+
+	<label>
+		Email:
+		<input type="email" name="Nombre" required="true" maxlength="15"> (En caso de atraso/extravío de producto)
+	</label>	
+	<br><br>
+
+	<label>
+		Contraseña:
+		<input type="password" name="pass" required="true" placeholder="Incluya números y letras">
+	</label>	
+	<br><br>
+
+	<label>
+		Teléfono:
+		<input type="tel" name="tel" required="true" maxlength="10" value="+593">
+	</label>	
+	<br><br>
+
+	<label>
+		Notificaciones Semanales:
+		<input type="range" name="Notificaciones" required="true" size="3" min="1" max="5">
+	</label>	
+	<br><br>
+
+	<label>
+				Fecha_Comun:
+				<input type="date" name="date"> (Sólo Fin de Semana)
+		</label>
+		<br><br>
+
+	</fieldset>
+
+	<br><button type="reset" name="set" value="set" >Limpiar Pedido</button>
+	<button type="submit" name="submit" value="submit">Enviar Pedido</button>
+	</form>
+
+	
+	<br><br>	
+
+	<div id="copyright">Copyright&copy; 2019 - Hernán Calle/Angie Castillo - Todos los derechos reservados</div>
+
+</body>
+</html>

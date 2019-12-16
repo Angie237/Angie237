@@ -1,0 +1,86 @@
+#button{
+	padding: 0;
+}
+
+#button li{
+	display: inline;
+}
+
+h1{
+
+	font-size: 40px;
+	font-family: Times New Roman;
+
+
+}
+
+h4{
+	font-size: 25px;
+	font-family: Homer Simpson UI;
+}
+
+fieldset{
+	background-color: #81BEF7;
+	border-color: #AEB404;
+
+
+}
+
+label{
+	font-weight: 500;
+	font-family: sans-serif;
+
+}
+
+p{
+
+	line-height: 150%;
+	font-size: 25px;
+	font-family: Homer Simpson UI;
+}
+
+div{
+	background-color: #B6A441;
+	font-size: 25px;
+}
+
+
+#button li a {
+ font-family: Arial;
+ font-size: 18px;
+ text-decoration: none;
+ float: left;
+ padding: 10px;
+ background-color: #2175bc;
+ color: #fff;
+ }
+
+ #button li a:hover {
+ background-color: #2586d7;
+ margin-top: -2;
+ padding-bottom: 12px;
+ }
+
+ body{
+ 	margin: 0;
+ 	min-height: 100vh;
+ 	background-image: url(/Tarea/img/dul.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+
+body:before {
+	content: "";
+	width: 100%;
+	min-height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	background-image: linear-gradient(green,white);
+	opacity: 0.3;
+	z-index: -1;
+
+
+
+
